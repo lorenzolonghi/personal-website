@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sono Lorenzo Longhi, sviluppatore e studente del quinto anno di informatica.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Lorenzo Longhi</title>
+  </head>
+  <body>
+    <navbar>
+      <a href="/"><div class="navbar-brand">Lorenzo Longhi</div></a>
+
+      <ul>
+        <li id="navHome">Home</li>
+        <li id="navAbout">About</li>
+        <li id="navContacts">Contacts</li>
+      </ul>
+
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </navbar>
+
+    <div class="home-section" id="home">
+      <h1 class="home-header">Lorenzo Longhi</h1>
+      <h2 class="home-subheader">Studente e sviluppatore</h2>
+      <div class="arrow-down"></div>
+    </div>
+
+    <div class="section" id="about">
+      <h2 class="section-header">Chi sono</h2>
+      <div class="about-container reveal">
+        <img src="/public/img/Logo_white.png" alt="my-picture">
+        <p>
+          Sono Lorenzo Longhi, studente del quinto anno dell'itis informatico.<br>   
+            La mia passione per l'informatica, e le innumerevoli
+            possibilità che essa offre, mi portano a studiare ogni giorno
+            per imparare qualcosa di nuovo.
+        </p>
+      </div>
+
+      <h2 class="section-header">Le mie skills</h2>
+      <div class="skills-container reveal">
+        <div class="skill-element">
+          Sviluppo desktop con C# (Winforms e WPF)
+        </div>
+        <div class="skill-element">
+          Javascript e Node.js
+        </div>
+        <div class="skill-element">
+          PHP
+        </div>
+        <div class="skill-element">
+          HTML e CSS
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="contacts">
+      <h2 class="section-header">Contatti</h2>
+      <div class="social-container reveal">            
+        <div class="social-element">
+          <a  href="https://github.com/lorenzolonghi" target="_blank">
+            <i class="bi bi-github"></i> 
+            Github 
+          </a>
+        </div>
+
+        <div class="social-element">
+          <a  href="https://www.instagram.com/lorenzo.longhi_/" target="_blank">
+            <i class="bi bi-instagram"></i> 
+            Instagram 
+          </a>
+        </div>
+
+        <div class="social-element">
+          <i class="bi bi-envelope"></i>   
+          <span id="emailAddress">lor.longhi@gmail.com</span>
+          <span style="font-size:small" id="clickToCopy">Premi per copiare</span>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2022 Lorenzo Longhi. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/scripts/navbar.js"></script>
+    <script type="module" src="/scripts/reveal.js"></script>
+    <script type="module" src="/scripts/scripts.js"></script>
+    <script type="module" src="/scripts/navigation.js"></script>
+
+  </body>
+</html>
